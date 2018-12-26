@@ -331,7 +331,7 @@
 			<text> </text>
 			<text>=</text>
 			<text> </text>
-			<var>[TRUE]</var>
+			<var>[FALSE]</var>
 		</line>
 		<line linenr="038" indent="&#160;" />
 		<line linenr="039" indent="&#160;" />
@@ -695,7 +695,7 @@
 			<text> </text>
 			<text>:</text>
 			<text> </text>
-			<text>argument1</text>
+			<text>plugin.ID</text>
 			<text>=</text>
 			<var>$plugin.ID</var>
 		</line>
@@ -901,7 +901,7 @@
 					<sval type="int" val="4" />
 					<sval type="int" val="1" />
 					<sval type="int" val="131075" />
-					<sval type="int" val="10" />
+					<sval type="int" val="9" />
 				</sval>
 				<sval type="array" size="6">
 					<sval type="int" val="800" />
