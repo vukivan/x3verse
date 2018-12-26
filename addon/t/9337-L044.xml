@@ -88,8 +88,9 @@
 		<t id="1021709">{7,1020000} {12,209}</t>
 
 		<!--Terran Sectors-->
-
-		<t id="1021015">Heretic's End</t>
+		<t id="50000">Sol</t>
+		<t id="1020513">Heretic's End</t>
+		<t id="1020413">{7,50000} {12,200}</t> <!--Sol Alpha-->
 		<t id="1021113">Asteroid Belt</t>
 		<t id="1021114">Mars</t>
 		<t id="1021214">Venus</t>
@@ -182,8 +183,10 @@
 		<t id="1031014">Scorched by the fires of eternity, Mercury remains a modern-day Gehenna for those who still believe in such a place. Forsaken by all but the most hardy of voyagers, there are few systems that hold greater torment.</t>
 
 		<!--Heretic's End-->
-		<t id="1031015">Originally discovered and claimed by the Paranid, Heretic's End was used primarily as a remote training area. Since the activation of the gate to Earth in this sector and the massive battle that ensued between the Kha'ak and a combined Terran and Commonwealth force, Terran forces have annexed this sector with little argument from the Paranid. The sector has become a buffer zone between Terran and non-Terran space, patrolled by a large contingent of Terran ships.</t>
+		<t id="1030513">Originally discovered and claimed by the Paranid, Heretic's End was used primarily as a remote training area. Since the activation of the gate to Earth in this sector and the massive battle that ensued between the Kha'ak and a combined Terran and Commonwealth force, Terran forces have annexed this sector with little argument from the Paranid. The sector has become a buffer zone between Terran and non-Terran space, patrolled by a large contingent of Terran ships.</t>
 
+		<!--Sol Alpha-->
+		<t id="1030413">This sector was established only recently by the USC in an effort to bolster inner Solar system economy with a "safe" outside connection.</t>
 		<!--Spires of Ellusion-->
 		<t id="1031016">This sector is a well known resting stop for pirates travelling through this criminal ridden channel of sectors.  Though not as luxurious as some nearby Argon hospitality, this "dump", as it is commonly referred to, provides well sought after respite from bounty hunters and security forces.  The towering run down tenements on this sector's only moon, give Spires of Elusion it's curious name.</t>
 
