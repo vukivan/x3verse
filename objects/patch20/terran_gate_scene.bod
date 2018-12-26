@@ -1,0 +1,26 @@
+/===============================================================
+/ 3D Scene Information file F:\SRC\X3.5\X3\objects\patch20\terran_gate_scene.BOD
+/ Automatically generated from F:\SRC\X3.5\[Assets]\patch 2.0\prepped_to_export\terran_gate_scene.max
+/===============================================================
+/ EGOSOFT Bodyfile exporter version 3.53 [Jul 31 2007 12:17:29]
+VER: 3;
+/ >> Wed Jan 14 15:13:36 2009
+
+/ >> Wed Jan 14 15:13:36 2009
+
+/ Animation time interval: 0..96000
+/ >> Wed Jan 14 15:13:36 2009
+ / Staring Biped Key Reading/ >> Wed Jan 14 15:13:36 2009
+ / finished Biped Key Reading
+/     Wed Jan 14 15:13:36 2009
+/     Node Particle View 01 Class [Particle View, HELPER_CLASS_ID]
+P 0; B 100000; N Particle View 01;
+  { 0x2002;  0; 0; 0;  0.000000; 0.000000; 0.000000; 0.000000;  -1;  -1; } // -1
+/     Wed Jan 14 15:13:36 2009
+/     Node Bothers\argon_gate_effect Class [Editable Poly, GEOMOBJECT_CLASS_ID]
+P 1; B others\argon_gate_effect; N Bothers\argon_gate_effect; b
+  { 0x2002;  0; 0; 53844;  0.000000; 0.000000; 0.000000; 0.000000;  -1;  -1; } // -1
+/     Wed Jan 14 15:13:36 2009
+/     Node Bpatch20\terran_gate Class [Editable Poly, GEOMOBJECT_CLASS_ID]
+P 2; B patch20\terran_gate; N Bpatch20\terran_gate; b
+  { 0x2002;  209; -2632; 2136;  0.000000; 0.000000; 0.000000; 0.000000;  -1;  -1; } // -1
