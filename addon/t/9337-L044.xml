@@ -91,12 +91,12 @@
 		<t id="50000">Sol</t>
 		<t id="1020513">Heretic's End</t>
 		<t id="1020413">{7,50000} {12,200}</t> <!--Sol Alpha-->
-		<t id="1020412">Asteroid Belt</t>
-		<t id="1021114">Mars</t>
-		<t id="1021214">Venus</t>
-		<t id="1021215">The Moon</t>
-		<t id="1021216">Earth</t>
-		<t id="1020414">Mercury</t>
+		<t id="1020412">Epsilon Asteroid Belt</t>
+		<t id="1020312">Epsilon Prime</t>
+		<t id="1020314">Proxima</t>
+		<t id="1020313">The Moon</t>
+		<t id="1020213">Earth</t>
+		<t id="1020414">Alpha Centauri</t>
 		<t id="1021213">Jupiter</t>
 		<t id="1021212">{7,1021213} {1951,340113}</t>
 		<t id="1021211">{7,1021213} {1951,340112}</t>
@@ -179,14 +179,14 @@
 		<!--Scion Fire-->
 		<t id="1031508">Low ranking Paranid priests established this sector several years ago with dreams of establishing a foothold for a new branch of the church.  Financial woes and political errors resulted in the project falling short of its intended goal.  Slowly, private industry seeps into this sector to make the most of what their unlucky predecessors started.</t>
 
-		<!--Mercury-->
-		<t id="1030414">Scorched by the fires of eternity, Mercury remains a modern-day Gehenna for those who still believe in such a place. Forsaken by all but the most hardy of voyagers, there are few systems that hold greater torment.</t>
+		<!--Alpha Centauri-->
+		<t id="1030414">Orbiting the large gas giant the inhabited moon called Alpha is the location of the largest Terran archeological site with many artifacts that witnessed the original colonisation and Terraformer war.</t>
 
 		<!--Heretic's End-->
 		<t id="1030513">Originally discovered and claimed by the Paranid, Heretic's End was used primarily as a remote training area. Since the activation of the gate to Earth in this sector and the massive battle that ensued between the Kha'ak and a combined Terran and Commonwealth force, Terran forces have annexed this sector with little argument from the Paranid. The sector has become a buffer zone between Terran and non-Terran space, patrolled by a large contingent of Terran ships.</t>
 
 		<!--Sol Alpha-->
-		<t id="1030413">This sector was established only recently by the USC in an effort to bolster inner Solar system economy with a "safe" outside connection.</t>
+		<t id="1030413">This sector was established only recently by the USC in an effort to bolster inner Solar system economy with a safe connection to the Commonwealth.</t>
 		<!--Spires of Ellusion-->
 		<t id="1031016">This sector is a well known resting stop for pirates travelling through this criminal ridden channel of sectors.  Though not as luxurious as some nearby Argon hospitality, this "dump", as it is commonly referred to, provides well sought after respite from bounty hunters and security forces.  The towering run down tenements on this sector's only moon, give Spires of Elusion it's curious name.</t>
 
@@ -196,11 +196,11 @@
 		<!--Magrathea-->
 		<t id="1031111">There was a time when this sector was home to a budding Paranid outpost.  Interestingly, not a shot was fired when the Paranid ceded control to pirate groups. Over the years, more notorious criminals and gang activity slowly encroached on the small outpost.  One by one, the citizens of the Paranid empire fled to safer and more comfortable destinations.</t>
 
-		<!--Asteroid Belt-->
-		<t id="1030412">Miners within this sector are constantly aware that their work is undertaken under the strict scrutiny of security forces, allocated to protect the jump gate recently relocated from Earth. The military presence here is sometimes overwhelming, and often intimidating.</t>
+		<!--Epsilon Asteroid Belt-->
+		<t id="1030412">Located in the outer asteroid belt of the Epsilon Eridani start, the purpose of this sector is to provide raw materials for the colony on Epsilon Prime and the Sol System.</t>
 
-		<!--Mars-->
-		<t id="1031114">Due to draconian security measures placed on Earth access, the USC chose to place their main base of operations in this sector. Those who reside here consider it fitting that the planet, named after the mythical god of war, has become home to the USC.</t>
+		<!--Epsilon Prime-->
+		<t id="1030312">After the USC made a decision to start colonising nearby star systems, this planet terraformed by AGI many centuries ago was the first to be successfuly colonised. The Epsilon Prime has become the seat of newly established USC Colonial Authority.</t>
 
 		<!--Juipter 3-->
 		<t id="1031211">Massive by even Terran standards, Jupiter's magnificence is rarely lost on those who enter this sector. The planet's upper atmosphere hosts a wide array of semi-organic life, much of which is still under analysis.</t>
@@ -211,14 +211,14 @@
 		<!--Juipter-->
 		<t id="1031213">Massive by even Terran standards, Jupiter's magnificence is rarely lost on those who enter this sector. The planet's upper atmosphere hosts a wide array of semi-organic life, much of which is still under analysis.</t>
 
-		<!--Venus-->
-		<t id="1031214">The bitter crushing winds that envelop Venus are matched only by the tenacity of those who have chosen to colonise this sector. The settlers of Venus take pride in atmospheric farming, their yield being equally acidic as their wit.</t>
+		<!--Proxima-->
+		<t id="1030314">Being the closest star to Earth, Proxima Centauri sector was originally planned as the location of the first new colony. However, after the discovery of a dormant Terraformer CPU ship in orbit the colonisation effort was delayed.</t>
 
 		<!--The Moon-->
-		<t id="1031215">In past times, Earth's moon was little more than a glimmer of the dreams held within those who gazed upon it. The cratered surface now glittering with countless refineries and bases, few will ever remember it as being anything more than a stepping-stone to the stars.</t>
+		<t id="1030313">In past times, Earth's moon was little more than a glimmer of the dreams held within those who gazed upon it. The cratered surface now glittering with countless refineries and bases, few will ever remember it as being anything more than a stepping-stone to the stars.</t>
 
 		<!--Earth-->
-		<t id="1031216">The jewel of Sol system and home to mankind, Earth. While many see similarities to the Argon homeworld, Earth holds grace and beauty that few could deny as being anything other than unique. For this and painful historical reasons, the AGI Task Force zealously guards the planet and the imposing orbital ring station, the Torus.</t>
+		<t id="1030213">The jewel of Sol system and home to mankind, Earth. While many see similarities to the Argon homeworld, Earth holds grace and beauty that few could deny as being anything other than unique. For this and painful historical reasons, the AGI Task Force zealously guards the planet that is slowly becoming an interstellar commerce center.</t>
 
 		<!--Oort Cloud-->
 		<t id="1031218">Deemed to be a viable Class IV mining operation by long-range scout vessels en-route to Proxima Centauri, the Oort Cloud remains largely untouched. Halfway between home and distant suns, few willingly choose to settle here. Those who do are often known to succumb to Oort's Curse, a madness with no reason or cure.</t>
