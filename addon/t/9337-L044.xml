@@ -109,7 +109,7 @@
 		<t id="1021414">Uranus</t>
 		<t id="1021415">{7,1021414} {1951,340113}</t>
 		<t id="1021416">{7,1021414} {1951,340112}</t>
-		<t id="1021317">Neptune</t>
+		<t id="1020411">{17,3011}</t> <!-- (Eye of )Colossus -->
 		<t id="1021417">Pluto</t>
 		<t id="1021318">Kuiper Belt</t>
 		<t id="1021218">Oort Cloud</t>
@@ -246,8 +246,8 @@
 		<!--Titan-->
 		<t id="1031314">Within the cold dark seas of Titan, many see the primordial beginnings of a future home alongside that of Earth. Left untouched by terraforming, for now that future remains unblemished.</t>
 
-		<!--Neptune-->
-		<t id="1031317">Known by many as Sol's Eye, Neptune's stunning blue shimmer has enticed many to travel further in search of such sights. The cold harsh winds here are sometimes farmed as a viable source of hydrogen.</t>
+		<!--Colossus-->
+		<t id="1030411">Eye of Colossus</t>
 
 		<!--Kuiper Belt-->
 		<t id="1031318">Buried amongst the desolate streams of rock that cover this remote mining operation, lie the dreams of many who came here in search of fortune. Both equally crushed, both little more than a cold dark shadow of the lives they had once hoped for.</t>
