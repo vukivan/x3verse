@@ -89,14 +89,16 @@
 
 		<!--Terran Sectors-->
 		<t id="50000">Sol</t>
+		<t id="50001">Asteroid Belt</t>
+		<t id="50002">Prime</t>
 		<t id="1020513">Heretic's End</t>
 		<t id="1020413">{7,50000} {12,200}</t> <!--Sol Alpha-->
-		<t id="1020412">Epsilon Asteroid Belt</t>
-		<t id="1020312">Epsilon Prime</t>
-		<t id="1020314">Proxima</t>
+		<t id="1020412">{12,204} {7,50001}</t> <!-- Epsilon Asteroid Belt -->
+		<t id="1020312">{12,204} {7,50002}</t>
+		<t id="1020314">{7,1023816}</t> <!-- Hope's Nemesis -->
 		<t id="1020313">The Moon</t>
 		<t id="1020213">Earth</t>
-		<t id="1020414">Alpha Centauri</t>
+		<t id="1020414">{7,1023804}</t> <!-- Antediluvian Ruins -->
 		<t id="1021213">Jupiter</t>
 		<t id="1021212">{7,1021213} {1951,340113}</t>
 		<t id="1021211">{7,1021213} {1951,340112}</t>
@@ -179,8 +181,8 @@
 		<!--Scion Fire-->
 		<t id="1031508">Low ranking Paranid priests established this sector several years ago with dreams of establishing a foothold for a new branch of the church.  Financial woes and political errors resulted in the project falling short of its intended goal.  Slowly, private industry seeps into this sector to make the most of what their unlucky predecessors started.</t>
 
-		<!--Alpha Centauri-->
-		<t id="1030414">Orbiting the large gas giant the inhabited moon called Alpha is the location of the largest Terran archeological site with many artifacts that witnessed the original colonisation and Terraformer war.</t>
+		<!--Antediluvian Ruins-->
+		<t id="1030414">Orbiting the large gas giant, the inhabited moon called Alpha is the location of the largest Terran archeological site with many artifacts that witnessed the original colonisation and the Terraformer war.</t>
 
 		<!--Heretic's End-->
 		<t id="1030513">Originally discovered and claimed by the Paranid, Heretic's End was used primarily as a remote training area. Since the activation of the gate to Earth in this sector and the massive battle that ensued between the Kha'ak and a combined Terran and Commonwealth force, Terran forces have annexed this sector with little argument from the Paranid. The sector has become a buffer zone between Terran and non-Terran space, patrolled by a large contingent of Terran ships.</t>
@@ -211,7 +213,7 @@
 		<!--Juipter-->
 		<t id="1031213">Massive by even Terran standards, Jupiter's magnificence is rarely lost on those who enter this sector. The planet's upper atmosphere hosts a wide array of semi-organic life, much of which is still under analysis.</t>
 
-		<!--Proxima-->
+		<!--Hope's Nemesis-->
 		<t id="1030314">Being the closest star to Earth, Proxima Centauri sector was originally planned as the location of the first new colony. However, after the discovery of a dormant Terraformer CPU ship in orbit the colonisation effort was delayed.</t>
 
 		<!--The Moon-->
