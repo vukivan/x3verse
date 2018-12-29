@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<gamestarts>
+  <!-- Bitmask
+     1 =
+     2 = Terran plot completed
+     4 = Fight Rank 3,333 reached
+     8 = Trade Rank 3,333 reached
+    16 = Fight Rank 100,000 reached
+    32 = Trade Rank 100,000 reached
+    64 = Goner Plot Complete
+   128 = Tormented Teladi Completed
+   256 = HUB plot completed
+   512 = Argon Rank 10,000
+  1024 = Boron Rank 10,000
+  2048 = Split Rank 10,000
+  4096 = Paranid Rank 10,000
+  8192 = Teladi Rank 10,000
+ 16384 = Argon Rank 333
+ 32768 =
+ 65536 =-->
+<!-- STANDARD AVAILABLE STARTS -->
+
+  <!-- Humble Merchant -->
+  <gamestart id="101" name="{1900,304}" description="{1900,1004}" difficulty="{1900,1504}" image="start05" plot="0">
+    <player name="{1900,1104}" species="{1900,1204}" gender="{1900,1304}" age="{1900,1404}"/>
+    <!-- Herron's Nebula -->
+    <sector x="1" y="2"/>
+    <ship typename="SS_SH_A_TS"/>
+  </gamestart>
+  <!-- Bankrupt Assassin -->
+  <gamestart id="102" name="{1900,305}" description="{1900,1005}" difficulty="{1900,1505}" image="start06" plot="0">
+    <player name="{1900,1105}" species="{1900,1205}" gender="{1900,1305}" age="{1900,1405}"/>
+    <!-- Aladna Hill -->
+    <sector x="7" y="6"/>
+    <ship typename="SS_SH_S_M3"/>
+  </gamestart>
+  <!-- Nostalgic Argon -->
+  <gamestart id="103" name="{1900,2019}" description="{1900,2119}" difficulty="{1900,2219}" image="start15" plot="0">
+    <player name="{1900,2319}" species="{1900,2419}" gender="{1900,2519}" age="{1900,2619}"/>
+    <!-- Argon Prime -->
+    <sector x="1" y="3"/>
+    <ship typename="SS_SH_A_M4"/>
+  </gamestart>
+  <!-- Savage Split -->
+  <gamestart id="104" name="{1900,310}" description="{1900,1010}" difficulty="{1900,1510}" image="start11" plot="0">
+    <player name="{1900,1110}" species="{1900,1210}" gender="{1900,1310}" age="{1900,1410}"/>
+    <!-- Family Pride -->
+    <sector x="7" y="2"/>
+    <ship typename="SS_SH_S_M5"/>
+  </gamestart>
+  <!-- Terran Defender -->
+  <gamestart id="105" name="{1900,2001}" description="{1900,2101}" difficulty="{1900,2201}" image="start08" plot="1">
+    <player name="{1900,2301}" species="{1900,2401}" gender="{1900,2501}" age="{1900,2601}"/>
+    <!-- The Moon -->
+    <sector x="12" y="2"/>
+    <ship typename="SS_SH_TR_M4"/>
+  </gamestart>
+  <!-- Damyath Import -->
+  <gamestart id="106" name="Damyath Import" description="Import a previously exported Litcube's Universe game." difficulty="None" image="start88" plot="0">
+    <player name="Litcube" species="{1900,2401}" gender="{1900,1304}" age="1"/>
+    <!-- Argon Prime -->
+    <sector x="1" y="3"/>
+    <ship typename="SS_SH_A_M5"/>
+  </gamestart>
+</gamestarts>
+
