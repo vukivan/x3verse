@@ -33,7 +33,306 @@
           </do_when>
           <do_otherwise>
             <do_choose>
-              <do_when value="{player.gamestart}" exact="101" comment="Humble Merchant">
+			  <do_when value="{player.gamestart}" exact="101" comment="Damyath Ultralight">
+                <set_value name="PlayerRace" exact="{lookup.race@terran}"/>
+                <reward_player>
+                  <money exact="18000"/>
+                  <notoriety>
+                    <relation race="argon" operation="set" exact="neutral"/>
+                    <relation race="boron" operation="set" exact="neutral"/>
+                    <relation race="paranid" operation="set" exact="neutral"/>
+                    <relation race="split" operation="set" exact="neutral"/>
+                    <relation race="teladi" operation="set" exact="neutral"/>
+                    <relation race="goner" operation="set" exact="friend"/>
+                    <relation race="pirate" operation="set" exact="enemy"/>
+                    <relation race="khaak" operation="set" exact="min" mutual="1"/>
+                    <relation race="xenon" operation="set" exact="min" mutual="1"/>
+                    <relation race="atf" operation="set" exact="neutral"/>
+                    <relation race="terran" operation="set" exact="neutral" mutual="1"/>
+                    <relation race="yaki" operation="set" exact="neutral" mutual="1"/>
+                  </notoriety>
+                  <equipment>
+                    <ware typename="SS_SHIELD_A" exact="3"/>
+                    <ware typename="SS_WARE_SCANNER2" exact="1"/>
+                    <ware typename="SS_WARE_TECH231" exact="1" comment="SETA"/>
+                    <ware typename="SS_WARE_SW_FIGHT_1" exact="1"/>
+                    <ware typename="SS_LASER_IRE" exact="4"/>
+                  </equipment>
+                </reward_player>
+              </do_when>
+              <do_when value="{player.gamestart}" exact="102" comment="Damyath Light">
+                <set_value name="PlayerRace" exact="{lookup.race@terran}"/>
+                <reward_player>
+                  <money min="100000" max="100000"/>
+                  <notoriety>
+                    <relation race="argon" operation="set" exact="neutral"/>
+                    <relation race="boron" operation="set" exact="neutral"/>
+                    <relation race="paranid" operation="set" exact="neutral"/>
+                    <relation race="split" operation="set" exact="neutral"/>
+                    <relation race="teladi" operation="set" exact="neutral"/>
+                    <relation race="goner" operation="set" exact="friend"/>
+                    <relation race="pirate" operation="set" exact="enemy"/>
+                    <relation race="khaak" operation="set" exact="min" mutual="1"/>
+                    <relation race="xenon" operation="set" exact="min" mutual="1"/>
+                    <relation race="atf" operation="set" exact="neutral"/>
+                    <relation race="terran" operation="set" exact="neutral" mutual="1"/>
+                    <relation race="yaki" operation="set" exact="neutral" mutual="1"/>
+                  </notoriety>
+                  <equipment>
+                    <ware typename="SS_SHIELD_B" exact="4"/>
+                    <ware typename="SS_WARE_SCANNER2" exact="1"/>
+                    <ware typename="SS_WARE_TECH231" exact="1"/>
+                    <ware typename="SS_WARE_SW_FIGHT_1" exact="1"/>
+                    <ware typename="SS_WARE_SW_FIGHT_2" exact="1"/>
+                    <ware typename="SS_LASER_IRE" exact="6"/>
+                  </equipment>
+                  <property>
+                  </property>
+                </reward_player>
+              </do_when>
+              <do_when value="{player.gamestart}" exact="103" comment="Damyath Medium">
+                <set_value name="PlayerRace" exact="{lookup.race@terran}"/>
+                <reward_player>
+                  <money min="300000" max="300000"/>
+                  <notoriety>
+                    <relation race="argon" operation="set" exact="neutral"/>
+                    <relation race="boron" operation="set" exact="neutral"/>
+                    <relation race="paranid" operation="set" exact="neutral"/>
+                    <relation race="split" operation="set" exact="neutral"/>
+                    <relation race="teladi" operation="set" exact="neutral"/>
+                    <relation race="goner" operation="set" exact="friend"/>
+                    <relation race="pirate" operation="set" exact="enemy"/>
+                    <relation race="khaak" operation="set" exact="min" mutual="1"/>
+                    <relation race="xenon" operation="set" exact="min" mutual="1"/>
+                    <relation race="atf" operation="set" exact="neutral"/>
+                    <relation race="terran" operation="set" exact="neutral" mutual="1"/>
+                    <relation race="yaki" operation="set" exact="neutral" mutual="1"/>
+                  </notoriety>
+                  <equipment>
+                    <ware typename="SS_SHIELD_B" exact="4"/>
+                    <ware typename="SS_WARE_SCANNER2" exact="1"/>
+                    <ware typename="SS_WARE_TECH231" exact="1"/>
+                    <ware typename="SS_WARE_SW_FIGHT_1" exact="1"/>
+                    <ware typename="SS_WARE_SW_FIGHT_2" exact="1"/>
+                    <ware typename="SS_LASER_IRE" exact="6"/>
+                  </equipment>
+                  <property>
+                    <ship typename="SS_SH_T_M5P">
+                      <equipment>
+                        <ware typename="SS_SHIELD_B" exact="1"/>
+                        <ware typename="SS_WARE_TECH213" exact="25"/>
+                        <ware typename="SS_WARE_TECH251" exact="36"/>
+                        <ware typename="SS_WARE_TECH246" exact="15"/>
+                        <ware typename="SS_WARE_BOOST" exact="1"/>
+                        <ware typename="SS_WARE_SATELLITE2" exact="12"/>
+                        <ware typename="SS_WARE_SCANNER3" exact="1"/>
+                        <ware typename="SS_WARE_SW_EXPLORE_1" exact="1"/>
+                      </equipment>
+                    </ship>
+                    <ship typename="SS_SH_T_M5P">
+                      <equipment>
+                        <ware typename="SS_SHIELD_B" exact="1"/>
+                        <ware typename="SS_WARE_TECH213" exact="25"/>
+                        <ware typename="SS_WARE_TECH251" exact="36"/>
+                        <ware typename="SS_WARE_TECH246" exact="15"/>
+                        <ware typename="SS_WARE_SATELLITE2" exact="9"/>
+                        <ware typename="SS_WARE_SCANNER3" exact="9"/>
+                        <ware typename="SS_WARE_SW_EXPLORE_1" exact="9"/>
+                      </equipment>
+                    </ship>
+                    <ship typename="SS_SH_T_M5P">
+                      <equipment>
+                        <ware typename="SS_SHIELD_B" exact="1"/>
+                        <ware typename="SS_WARE_TECH213" exact="25"/>
+                        <ware typename="SS_WARE_TECH251" exact="36"/>
+                        <ware typename="SS_WARE_TECH246" exact="15"/>
+                        <ware typename="SS_WARE_SATELLITE2" exact="9"/>
+                        <ware typename="SS_WARE_SCANNER3" exact="9"/>
+                        <ware typename="SS_WARE_SW_EXPLORE_1" exact="9"/>
+                      </equipment>
+                    </ship>
+                    <ship typename="SS_SH_T_M5P">
+                      <equipment>
+                        <ware typename="SS_SHIELD_B" exact="1"/>
+                        <ware typename="SS_WARE_TECH213" exact="25"/>
+                        <ware typename="SS_WARE_TECH251" exact="36"/>
+                        <ware typename="SS_WARE_TECH246" exact="15"/>
+                        <ware typename="SS_WARE_SATELLITE2" exact="9"/>
+                        <ware typename="SS_WARE_SCANNER3" exact="9"/>
+                        <ware typename="SS_WARE_SW_EXPLORE_1" exact="9"/>
+                      </equipment>
+                    </ship>
+                  </property>
+                </reward_player>
+              </do_when>
+              <do_when value="{player.gamestart}" exact="104" comment="Damyath Advanced">
+                <set_value name="PlayerRace" exact="{lookup.race@terran}"/>
+                <reward_player>
+                  <money min="600000" max="600000"/>
+                  <notoriety>
+                    <relation race="argon" operation="set" exact="neutral"/>
+                    <relation race="boron" operation="set" exact="neutral"/>
+                    <relation race="paranid" operation="set" exact="neutral"/>
+                    <relation race="split" operation="set" exact="neutral"/>
+                    <relation race="teladi" operation="set" exact="neutral"/>
+                    <relation race="goner" operation="set" exact="friend"/>
+                    <relation race="pirate" operation="set" exact="enemy"/>
+                    <relation race="khaak" operation="set" exact="min" mutual="1"/>
+                    <relation race="xenon" operation="set" exact="min" mutual="1"/>
+                    <relation race="atf" operation="set" exact="neutral"/>
+                    <relation race="terran" operation="set" exact="neutral" mutual="1"/>
+                    <relation race="yaki" operation="set" exact="neutral" mutual="1"/>
+                  </notoriety>
+                  <equipment>
+                    <ware typename="SS_SHIELD_C" exact="3"/>
+                    <ware typename="SS_WARE_SCANNER2" exact="1"/>
+                    <ware typename="SS_WARE_TECH231" exact="1"/>                    
+                    <ware typename="SS_LASER_PAC" exact="8"/>
+                  </equipment>
+                  <property>
+                    <ship typename="SS_SH_T_M5P">
+                      <equipment>
+                        <ware typename="SS_SHIELD_B" exact="1"/>
+                        <ware typename="SS_WARE_TECH213" exact="25"/>
+                        <ware typename="SS_WARE_TECH251" exact="36"/>
+                        <ware typename="SS_WARE_TECH246" exact="15"/>
+                        <ware typename="SS_WARE_BOOST" exact="1"/>
+                        <ware typename="SS_WARE_SATELLITE2" exact="12"/>
+                        <ware typename="SS_WARE_SCANNER3" exact="1"/>
+                        <ware typename="SS_WARE_SW_EXPLORE_1" exact="1"/>
+                      </equipment>
+                    </ship>
+                    <ship typename="SS_SH_T_M5P">
+                      <equipment>
+                        <ware typename="SS_SHIELD_B" exact="1"/>
+                        <ware typename="SS_WARE_TECH213" exact="25"/>
+                        <ware typename="SS_WARE_TECH251" exact="36"/>
+                        <ware typename="SS_WARE_TECH246" exact="15"/>
+                        <ware typename="SS_WARE_SATELLITE2" exact="9"/>
+                        <ware typename="SS_WARE_SCANNER3" exact="9"/>
+                        <ware typename="SS_WARE_SW_EXPLORE_1" exact="9"/>
+                      </equipment>
+                    </ship>
+                    <ship typename="SS_SH_T_M5P">
+                      <equipment>
+                        <ware typename="SS_SHIELD_B" exact="1"/>
+                        <ware typename="SS_WARE_TECH213" exact="25"/>
+                        <ware typename="SS_WARE_TECH251" exact="36"/>
+                        <ware typename="SS_WARE_TECH246" exact="15"/>
+                        <ware typename="SS_WARE_SATELLITE2" exact="9"/>
+                        <ware typename="SS_WARE_SCANNER3" exact="9"/>
+                        <ware typename="SS_WARE_SW_EXPLORE_1" exact="9"/>
+                      </equipment>
+                    </ship>
+                    <ship typename="SS_SH_T_M5P">
+                      <equipment>
+                        <ware typename="SS_SHIELD_B" exact="1"/>
+                        <ware typename="SS_WARE_TECH213" exact="25"/>
+                        <ware typename="SS_WARE_TECH251" exact="36"/>
+                        <ware typename="SS_WARE_TECH246" exact="15"/>
+                        <ware typename="SS_WARE_SATELLITE2" exact="9"/>
+                        <ware typename="SS_WARE_SCANNER3" exact="9"/>
+                        <ware typename="SS_WARE_SW_EXPLORE_1" exact="9"/>
+                      </equipment>
+                    </ship>
+                    <ship typename="SS_SH_T_M5P">
+                      <equipment>
+                        <ware typename="SS_SHIELD_B" exact="1"/>
+                        <ware typename="SS_WARE_TECH213" exact="25"/>
+                        <ware typename="SS_WARE_TECH251" exact="36"/>
+                        <ware typename="SS_WARE_TECH246" exact="15"/>
+                        <ware typename="SS_WARE_BOOST" exact="1"/>
+                        <ware typename="SS_WARE_SATELLITE2" exact="12"/>
+                        <ware typename="SS_WARE_SCANNER3" exact="1"/>
+                        <ware typename="SS_WARE_SW_EXPLORE_1" exact="1"/>
+                      </equipment>
+                    </ship>
+                    <ship typename="SS_SH_T_M5P">
+                      <equipment>
+                        <ware typename="SS_SHIELD_B" exact="1"/>
+                        <ware typename="SS_WARE_TECH213" exact="25"/>
+                        <ware typename="SS_WARE_TECH251" exact="36"/>
+                        <ware typename="SS_WARE_TECH246" exact="15"/>
+                        <ware typename="SS_WARE_BOOST" exact="1"/>
+                        <ware typename="SS_WARE_SATELLITE2" exact="12"/>
+                        <ware typename="SS_WARE_SCANNER3" exact="1"/>
+                        <ware typename="SS_WARE_SW_EXPLORE_1" exact="1"/>
+                      </equipment>
+                    </ship>
+                  </property>
+                </reward_player>
+              </do_when>
+              <do_when value="{player.gamestart}" exact="105" comment="Damyath Trader">
+                <set_value name="PlayerRace" exact="{lookup.race@terran}"/>
+                <reward_player>
+                  <money min="600000" max="1000000"/>
+                  <notoriety>
+                    <relation race="argon" operation="set" exact="neutral"/>
+                    <relation race="boron" operation="set" exact="neutral"/>
+                    <relation race="paranid" operation="set" exact="neutral"/>
+                    <relation race="split" operation="set" exact="neutral"/>
+                    <relation race="teladi" operation="set" exact="neutral"/>
+                    <relation race="goner" operation="set" exact="friend"/>
+                    <relation race="pirate" operation="set" exact="enemy"/>
+                    <relation race="khaak" operation="set" exact="min" mutual="1"/>
+                    <relation race="xenon" operation="set" exact="min" mutual="1"/>
+                    <relation race="atf" operation="set" exact="neutral"/>
+                    <relation race="terran" operation="set" exact="neutral" mutual="1"/>
+                    <relation race="yaki" operation="set" exact="neutral" mutual="1"/>
+                  </notoriety>
+                  <equipment>
+                    <ware typename="SS_SHIELD_C" exact="4"/>
+                    <ware typename="SS_WARE_SCANNER2" exact="1"/>
+                    <ware typename="SS_WARE_TECH231" exact="1"/>
+                    <ware typename="SS_WARE_SW_FIGHT_1" exact="1"/>
+                    <ware typename="SS_WARE_SW_FIGHT_2" exact="1"/>
+                    <ware typename="SS_LASER_IRE" exact="4"/>
+                    <ware typename="SS_LASER_PAC" exact="1"/>
+                  </equipment>
+                  <property>
+                    <ship typename="SS_SH_T_M5P">
+                      <equipment>
+                        <ware typename="SS_SHIELD_B" exact="1"/>
+                        <ware typename="SS_WARE_TECH213" exact="25"/>
+                        <ware typename="SS_WARE_TECH251" exact="36"/>
+                        <ware typename="SS_WARE_TECH246" exact="15"/>
+                        <ware typename="SS_WARE_BOOST" exact="1"/>
+                        <ware typename="SS_WARE_SATELLITE2" exact="12"/>
+                        <ware typename="SS_WARE_SCANNER3" exact="1"/>
+                        <ware typename="SS_WARE_SW_EXPLORE_1" exact="1"/>
+                      </equipment>
+                    </ship>
+                    <ship typename="SS_SH_T_M5P">
+                      <equipment>
+                        <ware typename="SS_SHIELD_B" exact="1"/>
+                        <ware typename="SS_WARE_TECH213" exact="25"/>
+                        <ware typename="SS_WARE_TECH251" exact="36"/>
+                        <ware typename="SS_WARE_TECH246" exact="15"/>
+                        <ware typename="SS_WARE_BOOST" exact="1"/>
+                        <ware typename="SS_WARE_SATELLITE2" exact="12"/>
+                        <ware typename="SS_WARE_SCANNER3" exact="1"/>
+                        <ware typename="SS_WARE_SW_EXPLORE_1" exact="1"/>
+                      </equipment>
+                    </ship>
+                    <ship typename="SS_SH_T_M5P">
+                      <equipment>
+                        <ware typename="SS_SHIELD_B" exact="1"/>
+                        <ware typename="SS_WARE_TECH213" exact="25"/>
+                        <ware typename="SS_WARE_TECH251" exact="36"/>
+                        <ware typename="SS_WARE_TECH246" exact="15"/>
+                        <ware typename="SS_WARE_BOOST" exact="1"/>
+                        <ware typename="SS_WARE_SATELLITE2" exact="12"/>
+                        <ware typename="SS_WARE_SCANNER3" exact="1"/>
+                        <ware typename="SS_WARE_SW_EXPLORE_1" exact="1"/>
+                      </equipment>
+                    </ship>
+                  </property>
+                </reward_player>
+              </do_when>
+              <do_when value="{player.gamestart}" exact="106" comment="Damyath Import">
+                <set_value name="PlayerRace" exact="{lookup.race@terran}"/>
+              </do_when>     
+              <do_when value="{player.gamestart}" exact="151" comment="Humble Merchant">
                 <set_value name="PlayerRace" exact="{lookup.race@argon}"/>
                 <reward_player>
                   <money min="9000" max="9900"/>
@@ -68,7 +367,7 @@
                   </property>
                 </reward_player>
               </do_when>
-			  <do_when value="{player.gamestart}" exact="102" comment="Bankrupt Assassin">
+			  <do_when value="{player.gamestart}" exact="152" comment="Bankrupt Assassin">
                 <set_value name="PlayerRace" exact="{lookup.race@argon}"/>
                 <reward_player>
                   <notoriety>
@@ -100,7 +399,7 @@
                   </equipment>
                 </reward_player>
               </do_when>
-			  <do_when value="{player.gamestart}" exact="103" comment="Nostalgic Argon">
+			  <do_when value="{player.gamestart}" exact="153" comment="Nostalgic Argon">
                 <set_value name="PlayerRace" exact="{lookup.race@argon}"/>
                 <reward_player>
                   <money exact="1000"/>
@@ -129,7 +428,7 @@
                   </equipment>
                 </reward_player>
               </do_when>
-			  <do_when value="{player.gamestart}" exact="104" comment="Savage Split">
+			  <do_when value="{player.gamestart}" exact="154" comment="Savage Split">
                 <set_value name="PlayerRace" exact="{lookup.race@split}"/>
                 <reward_player>
                   <money exact="1400"/>
@@ -159,7 +458,7 @@
                   </equipment>
                 </reward_player>
               </do_when>
-			  <do_when value="{player.gamestart}" exact="105" comment="Terran Defender">
+			  <do_when value="{player.gamestart}" exact="155" comment="Terran Defender">
                 <reward_player>
                   <money exact="1000"/>
                   <notoriety>
@@ -191,9 +490,37 @@
                   </equipment>
                 </reward_player>
               </do_when>
-			  <do_when value="{player.gamestart}" exact="106" comment="Damyath Import">
+			  <do_when value="{player.gamestart}" exact="156" comment="Aldran Adventurer">
                 <set_value name="PlayerRace" exact="{lookup.race@terran}"/>
-              </do_when>              
+                <reward_player>
+                  <money min="4000" max="4150"/>
+                  <notoriety>
+                    <relation race="argon" operation="set" exact="neutral+5"/>
+                    <relation race="boron" operation="set" exact="neutral-9"/>
+                    <relation race="paranid" operation="set" exact="enemy+112"/>
+                    <relation race="split" operation="set" exact="foe-21"/>
+                    <relation race="teladi" operation="set" exact="neutral+3"/>
+                    <relation race="goner" operation="set" exact="27"/>
+                    <relation race="pirate" operation="set" exact="enemy"/>
+                    <relation race="khaak" operation="set" exact="min" mutual="1"/>
+                    <relation race="xenon" operation="set" exact="min" mutual="1"/>
+                    <relation race="atf" operation="set" exact="friend-32"/>
+                    <relation race="terran" operation="set" exact="friend-32"/>
+                    <relation race="yaki" operation="set" exact="shunned"/>
+                  </notoriety>
+                  <equipment>
+                    <ware typename="SS_SHIELD_C" exact="2"/>
+                    <ware typename="SS_LASER_EMPC" exact="5"/>
+                    <ware typename="SS_WARE_BOOST" exact="1" comment="Boost Extension"/>
+                    <ware typename="SS_WARE_WARPING" exact="1" comment="Jumpdrive"/>
+                    <ware typename="SS_WARE_SCANNER2" exact="1" comment="Duplex Scanner"/>
+                    <ware typename="SS_WARE_TECH213" exact="{player.ship.equipment.SS_WARE_TECH246.maxcount}/2+1" comment="Engine Tunings"/>
+                    <ware typename="SS_WARE_TECH231" exact="1" comment="SETA"/>
+                    <ware typename="SS_WARE_TECH246" exact="{player.ship.equipment.SS_WARE_TECH246.maxcount}/3+1" comment="Rudder Optomisation"/>
+                    <ware typename="SS_WARE_TECH251" exact="({player.ship.equipment.SS_WARE_TECH251.maxcount}*3)/4+1" comment="Cargo Bay Extension"/>
+                  </equipment>
+                </reward_player>
+              </do_when>
             </do_choose>
           </do_otherwise>
         </do_choose>

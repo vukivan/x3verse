@@ -2,49 +2,71 @@
 <language id="44">
 
 	<page id="350007" title="Boardcomp. Sectornames" descr="Names of all sectors (spoken by Boardcomputer)" voice="yes">
+		<!-- Helper strings -->
+		<t id="50000">Sol</t>
+		<t id="50001">Asteroid Belt</t>
+		<t id="50002">Prime</t>
+		<t id="50003">Eye</t>
+		<t id="50004">of</t>
+		<t id="50005">Shadow's End</t>
+		<t id="50006">Althes</t>
+		<t id="50007">Megnir</t>
+		<t id="50008">Aldrin</t>
+		<t id="50009">Segaris</t>
+		<t id="50500">0</t>
+		<t id="50501">1</t>
+		<t id="50502">2</t>
+		<t id="50503">3</t>
+		<t id="50504">4</t>
+		<t id="50505">5</t>
+		<t id="50506">6</t>
+		<t id="50507">7</t>
+		<t id="50508">8</t>
+		<t id="50509">9</t>
+		
 		<!--Unknown Sector Nu -> Unclaimed Sector Delta 15-->
-		<t id="1021604">{7,1023832} {12,203} {7,50101}{7,50105}</t>
+		<t id="1021604">{7,1023832} {12,203} {7,50501}{7,50505}</t>
 		
 		<!--Unknown Sector Gamma -> Unclaimed Sector Eta 8-->
-		<t id="1020907">{7,1023832} {12,206} {7,50108}</t>
+		<t id="1020907">{7,1023832} {12,206} {7,50508}</t>
 		
 		<!--Unknown Sector Epsilon -> Unclaimed Sector Iota 8-->
-		<t id="1020909">{7,1023832} {12,208} {7,50108}</t>
+		<t id="1020909">{7,1023832} {12,208} {7,50508}</t>
 		
 		<!--Z Alpha -> unclaimed sector Iota 10 -->
-		<t id="1021109">{7,1023832} {12,208} {7,50101}{7,50100}</t>
+		<t id="1021109">{7,1023832} {12,208} {7,50501}{7,50500}</t>
 		
 		<!--Unknown Sector Kappa -> US Iota 16-->
-		<t id="1021709">{7,1023832} {12,208} {7,50101}{7,50106}</t>
+		<t id="1021709">{7,1023832} {12,208} {7,50501}{7,50506}</t>
 		
 		<!--Y Alpha -> US Kappa 6-->
-		<t id="1020710">{7,1023832} {12,209} {7,50106}</t>
+		<t id="1020710">{7,1023832} {12,209} {7,50506}</t>
 		
 		<!--Unknown Sector Beta -> US Kappa 7-->
-		<t id="1020810">{7,1023832} {12,209} {7,50107}</t>
+		<t id="1020810">{7,1023832} {12,209} {7,50507}</t>
 
 		<!--Y Beta -> US Lambda 6-->
-		<t id="1020711">{7,1023832} {12,210} {7,50106}</t>
+		<t id="1020711">{7,1023832} {12,210} {7,50506}</t>
 		<!--Y Gamma -> US Lambda 9-->
-		<t id="1021011">{7,1023832} {12,210} {7,50109}</t>
+		<t id="1021011">{7,1023832} {12,210} {7,50509}</t>
 		
 		<!--V Alpha -> US Mu 4-->
-		<t id="1020512">{7,1023832} {12,211} {7,50104}</t>
+		<t id="1020512">{7,1023832} {12,211} {7,50504}</t>
 		
 		<!--V Beta -> US Nu 7-->
-		<t id="1020813">{7,1023832} {12,212} {7,50107}</t>
+		<t id="1020813">{7,1023832} {12,212} {7,50507}</t>
 		
 		<!--V Delta -> US Nu 8-->
-		<t id="1020913">{7,1023832} {12,212} {7,50108}</t>
+		<t id="1020913">{7,1023832} {12,212} {7,50508}</t>
 		
 		<!--V Gamma -> US Xi 7-->
-		<t id="1020814">{7,1023832} {12,213} {7,50107}</t>
+		<t id="1020814">{7,1023832} {12,213} {7,50507}</t>
 		
 		<!--Unknown Sector Alpha -> US Rho-->
 		<t id="1020117">{7,1023832} {12,216}</t>
 		
 		<!--Unknown Sector Delta -> US Tau 11-->
-		<t id="1021219">{7,1023832} {12,218} {7,50101}{7,50101}</t>
+		<t id="1021219">{7,1023832} {12,218} {7,50501}{7,50501}</t>
 
 		<!--Sanctuary of Darkness-->
 		<t id="1020514">{7,1023827}</t>
@@ -84,22 +106,6 @@
 		<t id="1021703">{7,20005}</t>
 
 		<!--Terran Sectors-->
-		<t id="50000">Sol</t>
-		<t id="50001">Asteroid Belt</t>
-		<t id="50002">Prime</t>
-		<t id="50003">Eye</t>
-		<t id="50004">of</t>
-		<t id="50005">Shadow's End</t>
-		<t id="50100">0</t>
-		<t id="50101">1</t>
-		<t id="50102">2</t>
-		<t id="50103">3</t>
-		<t id="50104">4</t>
-		<t id="50105">5</t>
-		<t id="50106">6</t>
-		<t id="50107">7</t>
-		<t id="50108">8</t>
-		<t id="50109">9</t>
 		<t id="1020513">Heretic's End</t>
 		<t id="1020413">{7,50000} {12,200}</t> <!--Sol Alpha-->
 		<t id="1020412">{12,204} {7,50001}</t> <!-- Epsilon Asteroid Belt -->
@@ -126,6 +132,11 @@
 		<t id="1021614">{7,1023814}</t> <!-- Lance's Dominion-->
 		<t id="1021613">{17,6331}</t> <!-- Appallox -->
 		<t id="1021612">{7,1023807}</t> <!-- The Void -->
+		<t id="1021021">{7,50006}</t> <!--Althes-->
+		<t id="1021022">{7,50007}</t> <!--Megnir-->
+		<t id="1021122">{7,50008}</t> <!--Aldrin-->
+		<t id="1020922">{7,50009}</t> <!--Segaris-->
+		<t id="1020822">{7,30064} {7,50501}{7,50503}{7,50508}</t> <!--Xenon Sector 138-->
 
 		<!--Perpetual Sin, moved due to shitty vanilla placement-->
 		<t id="1021513">{7,30023}</t>
@@ -140,7 +151,7 @@
 		<t id="1030000">Sector is not recognized in the database.</t>
 
 		<!--V Alpha-->
-		<t id="1030512">{19,1}\n\nThe V sectors securement was a rare collaboration between Split and Paranid security and logistics forces.</t>
+		<t id="1030512">{19,1030000}</t>
 
 		<!--Sancutary of Darkness-->
 		<t id="1030514">It was a surprise to the entire commonwealth when the Phanon Corporation CEO Zalex Yhulan announced on the GNN that their subsidiary companies would be stationed in this newly discovered sliver of the galaxy.  With little resources or population to speak of, rumours say that the Phanon prefer it this way; a place away from prying eyes and pointed questions.</t>
@@ -155,31 +166,31 @@
 		<t id="1030610">A high Teladi court official used this sector as an unprecedented arbitration strategy in the mediation between two squabbling medium sized companies.  The premise was a financial strategy battle of wits, and whomever managed to profit most would have emerged the litigation victor.  As both companies managed to surpass all initial expectations of the obscure arbitration, the legal battle was quickly forgotten and healthy trade between both companies is at an all-time high.</t>
 
 		<!--Y Sector Alpha-->
-		<t id="1030710">{19,1}\n\nThe Y sectors were mostly initiated by the Teladi Company and Teladi private security.</t>
+		<t id="1030710">{19,1030000}</t>
 
 		<!--Y Sector Beta-->
-		<t id="1030711">{19,1}\n\nThe Y sectors were mostly initiated by the Teladi Company and Teladi private security.</t>
+		<t id="1030711">{19,1030000}</t>
 
 		<!--V Beta-->
-		<t id="1030813">{19,1}\n\nThe V sectors securement was a rare collaboration between Split and Paranid security and logistics forces.</t>
+		<t id="1030813">{19,1030000}</t>
 
 		<!--V Delta-->
-		<t id="1030814">{19,1}\n\nThe V sectors securement was a rare collaboration between Split and Paranid security and logistics forces.</t>
+		<t id="1030814">{19,1030000}</t>
 
 		<!--Far Point-->
 		<t id="1030815">The Argon military recently expanded into the previously unknown sector to supplement M148's growing demands.</t>
 
 		<!--V Gamma-->
-		<t id="1030913">{19,1}\n\nThe V sectors securement was a rare collaboration between Split and Paranid security and logistics forces.</t>
+		<t id="1030913">{19,1030000}</t>
 
 		<!--Y Sector Gamma-->
-		<t id="1031011">{19,1}\n\nThe Y sectors were mostly initiated by the Teladi Company and Teladi private security.</t>
+		<t id="1031011">{19,1030000}</t>
 
 		<!--Blue Storm-->
 		<t id="1031106">Recently discovered, the Boron have heralded this peaceful slice of space as the new destination getaway for the upper class.  This of course didn't stop private investment firms from capitalizing on the rich resources this sector has to offer.</t>
 
 		<!--Z Alpha-->
-		<t id="1031109">{19,1}\n\nThis Z sector was a venture fronted mostly by Argon security forces.</t>
+		<t id="1031109">{19,1030000}</t>
 
 		<!--Overmasters-->
 		<t id="1031306">Slave traders had once used this pocket of space as a rendezvous outpost for trade operations.  As the result of two unknown split families war actions, however, these operations were considered too much of a liability to continue.  Eventually private industry took over, and the sector's trade community flourishes to this day.</t>
@@ -198,7 +209,7 @@
 
 		<!--Sol Alpha-->
 		<t id="1030413">This sector was established only recently by the USC in an effort to bolster inner Solar system economy with a safe connection to the Commonwealth.</t>
-		<!--Spires of Ellusion-->
+		<!--Spires of Elusion-->
 		<t id="1031016">This sector is a well known resting stop for pirates travelling through this criminal ridden channel of sectors.  Though not as luxurious as some nearby Argon hospitality, this "dump", as it is commonly referred to, provides well sought after respite from bounty hunters and security forces.  The towering run down tenements on this sector's only moon, give Spires of Elusion it's curious name.</t>
 
 		<!--Twisted Skies-->
@@ -235,7 +246,7 @@
 		<t id="1030112">Undiscovered in the first wave of Terran expansion many centuries ago, this sectors is a constant reminder that there is a lot more out there to be explored.</t>
 
 		<!--Unknown Sector Delta-->
-		<t id="1031219">Not much is known about this empty portion of space, except that the presence of an ominous Xenon gate gives a solid explanation of why it remains unclaimed.</t>
+		<t id="1031219">{19,1030000}</t>
 
 		<!--Xenon sector 7-->
 		<t id="1031220">It was only until recently that exploration began in this sector.  When reports that Xenon stations were spotted within, a Teladi stock market crash resulted in the loss of billions of credits from daring investors with hopes and dreams set on a new frontier.</t>
@@ -287,6 +298,21 @@
 
 		<!--Lance's Dominion-->
 		<t id="1031614">This is a former Split mining colony conquered in an suprise assault by USC Fleet Commander Stevron Aurius Lance. Instead of invading the system directly, Lance used a small fleet of captured Boron ships to attack another Split sector. Once the Split moved their forces to defense positions against the "Boron" ships, Lance jumped the decoys to this sector and blocked the Split from comming back.</t>
+		
+		<!--Althes-->
+		<t id="1031021">Providing further evidence that 'someone' can reconfigure jumpgate links, this sector was found during the Terran expansion into the galaxy, having previously gone undiscovered by Terran fleets hundreds of years ago. No further information exists regarding this sector</t>
+		
+		<!--Megnir-->
+		<t id="1031022">This long-lost frontier sector was once part of the Terran drive to explore the gate network. It now bears the scars of rampant Terraformers who transformed the planet into an unforgiving wasteland, denying the colonial inhabitants a quick death.</t>
+		
+		<!--Aldrin-->
+		<t id="1031122">Many believed Aldrin to be lost if not completely destroyed centuries ago. Now, the "Lost Colony", recovered from the void of space, is home to those who have made good use of surviving terraformer ships, still benevolent from their isolation. Their offering of secrets long-forgotten gives hope for the continued survival of all races.</t>
+		
+		<!--Segaris-->
+		<t id="1030922">New Portsmouth, the principal settlement of the planet Terranova, is still intact after the Terraformer war. Its population fled the planet soon after the first Terraformer entered the sector. After a battle in low orbit, the Terran ships managed to retreat to the next sector. The Terraformers destroyed only the planet's ecosystem and climate, curiously leaving artificial structures undamaged.</t>
+		
+		<!--Xenon Sector 138-->
+		<t id="1030822">Once planned as a mining colony, this sector fell under the Terraformers' control early in the conflict. They quickly overwhelmed the colonising ships and began Terraforming the planet relentlessly until it was no longer suitable for life. Some of the Xenon in this sector show battle scars of Commonwealth origin, supporting the theory that they used the Hub to traverse between the Commonwealth and this Terran frontier region, where they evolved.</t>
 
 
 	</page>
