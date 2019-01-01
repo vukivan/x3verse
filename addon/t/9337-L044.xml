@@ -2,11 +2,49 @@
 <language id="44">
 
 	<page id="350007" title="Boardcomp. Sectornames" descr="Names of all sectors (spoken by Boardcomputer)" voice="yes">
-		<!--Unknown Sector Alpha-->
-		<t id="1020117">{7,1020000} {12,200}</t>
+		<!--Unknown Sector Nu -> Unclaimed Sector Delta 15-->
+		<t id="1021604">{7,1023832} {12,203} {7,50101}{7,50105}</t>
+		
+		<!--Unknown Sector Gamma -> Unclaimed Sector Eta 8-->
+		<t id="1020907">{7,1023832} {12,206} {7,50108}</t>
+		
+		<!--Unknown Sector Epsilon -> Unclaimed Sector Iota 8-->
+		<t id="1020909">{7,1023832} {12,208} {7,50108}</t>
+		
+		<!--Z Alpha -> unclaimed sector Iota 10 -->
+		<t id="1021109">{7,1023832} {12,208} {7,50101}{7,50100}</t>
+		
+		<!--Unknown Sector Kappa -> US Iota 16-->
+		<t id="1021709">{7,1023832} {12,208} {7,50101}{7,50106}</t>
+		
+		<!--Y Alpha -> US Kappa 6-->
+		<t id="1020710">{7,1023832} {12,209} {7,50106}</t>
+		
+		<!--Unknown Sector Beta -> US Kappa 7-->
+		<t id="1020810">{7,1023832} {12,209} {7,50107}</t>
 
-		<!--V Alpha-->
-		<t id="1020512">{9,521} {12,200}</t>
+		<!--Y Beta -> US Lambda 6-->
+		<t id="1020711">{7,1023832} {12,210} {7,50106}</t>
+		<!--Y Gamma -> US Lambda 9-->
+		<t id="1021011">{7,1023832} {12,210} {7,50109}</t>
+		
+		<!--V Alpha -> US Mu 4-->
+		<t id="1020512">{7,1023832} {12,211} {7,50104}</t>
+		
+		<!--V Beta -> US Nu 7-->
+		<t id="1020813">{7,1023832} {12,212} {7,50107}</t>
+		
+		<!--V Delta -> US Nu 8-->
+		<t id="1020913">{7,1023832} {12,212} {7,50108}</t>
+		
+		<!--V Gamma -> US Xi 7-->
+		<t id="1020814">{7,1023832} {12,213} {7,50107}</t>
+		
+		<!--Unknown Sector Alpha -> US Rho-->
+		<t id="1020117">{7,1023832} {12,216}</t>
+		
+		<!--Unknown Sector Delta -> US Tau 11-->
+		<t id="1021219">{7,1023832} {12,218} {7,50101}{7,50101}</t>
 
 		<!--Sanctuary of Darkness-->
 		<t id="1020514">{7,1023827}</t>
@@ -16,37 +54,7 @@
 
 		<t id="1020610">Creditania</t>
 
-		<!--Y Alpha-->
-		<t id="1020710">{9,524} {12,200}</t>
-
-		<!--Y Beta-->
-		<t id="1020711">{9,524} {12,201}</t>
-
-		<!--Unknown Sector Beta-->
-		<t id="1020810">{7,1020000} {12,201}</t>
-
-		<!--V Beta-->
-		<t id="1020813">{9,521} {12,201}</t>
-
-		<!--V Gamma-->
-		<t id="1020814">{9,521} {12,202}</t>
-
 		<t id="1020815">Far Point</t>
-
-		<!--Unknown Sector Gamma-->
-		<t id="1020907">{7,1020000} {12,202}</t>
-
-		<!--Unknown Sector Epsilon-->
-		<t id="1020909">{7,1020000} {12,204}</t>
-
-		<!--V Delta-->
-		<t id="1020913">{9,521} {12,203}</t>
-
-		<!--Unknown Sector Zeta-->
-		<t id="1020914">{7,1020000} {12,205}</t>
-
-		<!--Y Gamma-->
-		<t id="1021011">{9,524} {12,202}</t>
 
 		<t id="1021106">Blue Storm</t>
 
@@ -56,14 +64,8 @@
 		<!--Twisted Skies-->
 		<t id="1021017">{7,30035}</t>
 
-		<!--Z Alpha-->
-		<t id="1021109">{9,525} {12,200}</t>
-
 		<!--Magrathea-->
 		<t id="1021111">{7,20006}</t>
-
-		<!--Unknown Sector Delta-->
-		<t id="1021219">{7,1020000} {12,203}</t>
 
 		<!--Xenon Sector 7-->
 		<t id="1021220">{7,30064} {1951,340108}</t>
@@ -78,14 +80,8 @@
 
 		<t id="1021508">Scion Fire</t>
 
-		<!--Unknown Sector Nu-->
-		<t id="1021604">{7,1020000} {12,212}</t>
-
 		<!--Prophecy Fulfilled-->
 		<t id="1021703">{7,20005}</t>
-
-		<!--Unknown Sector Kappa-->
-		<t id="1021709">{7,1020000} {12,209}</t>
 
 		<!--Terran Sectors-->
 		<t id="50000">Sol</t>
@@ -94,6 +90,16 @@
 		<t id="50003">Eye</t>
 		<t id="50004">of</t>
 		<t id="50005">Shadow's End</t>
+		<t id="50100">0</t>
+		<t id="50101">1</t>
+		<t id="50102">2</t>
+		<t id="50103">3</t>
+		<t id="50104">4</t>
+		<t id="50105">5</t>
+		<t id="50106">6</t>
+		<t id="50107">7</t>
+		<t id="50108">8</t>
+		<t id="50109">9</t>
 		<t id="1020513">Heretic's End</t>
 		<t id="1020413">{7,50000} {12,200}</t> <!--Sol Alpha-->
 		<t id="1020412">{12,204} {7,50001}</t> <!-- Epsilon Asteroid Belt -->
