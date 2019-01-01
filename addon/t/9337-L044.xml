@@ -93,6 +93,7 @@
 		<t id="50002">Prime</t>
 		<t id="50003">Eye</t>
 		<t id="50004">of</t>
+		<t id="50005">Shadow's End</t>
 		<t id="1020513">Heretic's End</t>
 		<t id="1020413">{7,50000} {12,200}</t> <!--Sol Alpha-->
 		<t id="1020412">{12,204} {7,50001}</t> <!-- Epsilon Asteroid Belt -->
@@ -101,24 +102,24 @@
 		<t id="1020313">The Moon</t>
 		<t id="1020213">Earth</t>
 		<t id="1020414">{7,1023804}</t> <!-- Antediluvian Ruins -->
-		<t id="1021213">Jupiter</t>
-		<t id="1021212">{7,1021213} {1951,340113}</t>
-		<t id="1021211">{7,1021213} {1951,340112}</t>
-		<t id="1021313">Saturn</t>
-		<t id="1021312">{7,1021313} {1951,340113}</t>
-		<t id="1021311">{7,1021313} {1951,340112}</t>
-		<t id="1021314">Titan</t>
-		<t id="1021414">Uranus</t>
-		<t id="1021415">{7,1021414} {1951,340113}</t>
-		<t id="1021416">{7,1021414} {1951,340112}</t>
+		<t id="1021213">{17,5511}</t> <!-- Nikkonofune -->
+		<t id="1021212">{17,10771}</t> <!-- Valhalla -->
+		<t id="1021211">{7,1023809}</t> <!-- Proteus Prime -->
+		<t id="1021313">Aurora</t>
+		<t id="1021312">{17,6211}</t> <!-- Soulstar -->
+		<t id="1021311">{7,1023821}</t> <!-- Blue Horizon -->
+		<t id="1021314">{9,514}.{9,502}.{9,500}. {17,6161}</t> <!-- OCA Headquarters -->
+		<t id="1021414">{7,50005}</t> <!-- Shadow's End -->
+		<t id="1021415">{17,7001}</t> <!-- Eclipse -->
+		<t id="1021416">{7,1023820}</t> <!-- Mists of Artemis -->
 		<t id="1020411">{7,50003} {7,50004} {17,3111}</t> <!-- Eye of Colossus -->
 		<t id="1020212">{7,1023817}</t> <!-- Anacreon's Kingdom -->
 		<t id="1020113">{7,1023831}</t> <!-- Gaian Prophecy -->
 		<t id="1020112">{12,217} {17,4061}</t> <!-- Sigma Cluster -->
-		<t id="1021514">{1000,118} {9,500}</t>
-		<t id="1021614">{1000,118} {9,501}</t>
-		<t id="1021613">{1000,118} {9,502}</t>
-		<t id="1021612">{1000,118} {9,503}</t>
+		<t id="1021514">{7,1023808}</t> <!-- Narayan's Revenge -->
+		<t id="1021614">{7,1023814}</t> <!-- Lance's Dominion-->
+		<t id="1021613">{17,6331}</t> <!-- Appallox -->
+		<t id="1021612">{7,1023807}</t> <!-- The Void -->
 
 		<!--Perpetual Sin, moved due to shitty vanilla placement-->
 		<t id="1021513">{7,30023}</t>
@@ -204,16 +205,16 @@
 		<t id="1030412">Located in the outer asteroid belt of the Epsilon Eridani start, the purpose of this sector is to provide raw materials for the colony on Epsilon Prime and the Sol System.</t>
 
 		<!--Epsilon Prime-->
-		<t id="1030312">After the USC made a decision to start colonising nearby star systems, this planet terraformed by AGI many centuries ago was the first to be successfuly colonised. The Epsilon Prime has become the seat of newly established USC Colonial Authority.</t>
+		<t id="1030312">After the USC made a decision to start colonising nearby star systems, this planet terraformed by AGI many centuries ago was the first to be successfuly colonised.</t>
 
-		<!--Juipter 3-->
-		<t id="1031211">Massive by even Terran standards, Jupiter's magnificence is rarely lost on those who enter this sector. The planet's upper atmosphere hosts a wide array of semi-organic life, much of which is still under analysis.</t>
+		<!--Proteus Prime-->
+		<t id="1031211">Protoplanetary system abundant with raw resources has attracted many prospectors when it was originally discovered.</t>
 
-		<!--Juipter 2-->
-		<t id="1031212">Massive by even Terran standards, Jupiter's magnificence is rarely lost on those who enter this sector. The planet's upper atmosphere hosts a wide array of semi-organic life, much of which is still under analysis.</t>
+		<!-- Valhalla -->
+		<t id="1031212">Discovered through the use of an unfocused jumpdrive by a young Teladi entrepreneur, this sector was auctioned off to the Terran government. Once Terran control was established, the USC used their knowlege of the gates to connect this system with the existing network.</t>
 
-		<!--Juipter-->
-		<t id="1031213">Massive by even Terran standards, Jupiter's magnificence is rarely lost on those who enter this sector. The planet's upper atmosphere hosts a wide array of semi-organic life, much of which is still under analysis.</t>
+		<!--Nikkonofune-->
+		<t id="1031213">Colonial Authority is using this sector for production of high tech goods and as a resupply point for scout ships searching for new systems.</t>
 
 		<!--Hope's Nemesis-->
 		<t id="1030314">Being the closest star to Earth, Proxima Centauri sector was originally planned as the location of the first new colony. However, after the discovery of a dormant Terraformer CPU ship in orbit the colonisation effort was delayed.</t>
@@ -236,17 +237,17 @@
 		<!--Xenon sector 9-->
 		<t id="1031221">No ships have entered this sector since the disappearance of an Argon expeditionary force two years ago. Their final report, made in haste and mostly unintelligible, held ominous hints of a xenon shipyard.</t>
 
-		<!--Saturn 3-->
-		<t id="1031311">To fly across the rings of Saturn, to know its beauty and splendour, to gaze upon such timeless grace, to do all these things is to finally accept your home amongst the stars. It remains a rite of passage for those wishing to gain true understanding of the journey taken.</t>
+		<!--Blue Horizon -->
+		<t id="1031311">Home to the most populated planet in all Terran colonies, this system is also the center of industry and inovation for the entire cluster.</t>
 
-		<!--Saturn 2-->
-		<t id="1031312">To fly across the rings of Saturn, to know its beauty and splendour, to gaze upon such timeless grace, to do all these things is to finally accept your home amongst the stars. It remains a rite of passage for those wishing to gain true understanding of the journey taken.</t>
+		<!--Soulstar-->
+		<t id="1031312">This system is believed to have once belonged to the Kha'ak, however the circumstances of their departure are unknown.</t>
 
-		<!--Saturn-->
-		<t id="1031313">To fly across the rings of Saturn, to know its beauty and splendour, to gaze upon such timeless grace, to do all these things is to finally accept your home amongst the stars. It remains a rite of passage for those wishing to gain true understanding of the journey taken.</t>
+		<!--Aurora-->
+		<t id="1031313">One of the first colonies to be established before the Terraformer war, the rediscovery of this system is considered as a good omen in the eyes of many deep space pilots.</t>
 
-		<!--Titan-->
-		<t id="1031314">Within the cold dark seas of Titan, many see the primordial beginnings of a future home alongside that of Earth. Left untouched by terraforming, for now that future remains unblemished.</t>
+		<!--OCA Headquarters-->
+		<t id="1031314">The USC Office of Colonial Authority was established in this system and is considered by many as the capital of all Terran colonial sectors.</t>
 
 		<!-- Eye of Colossus -->
 		<t id="1030411">Named after a brown dwarf that dominates the skies of this newely established Terran colony, this sector is mostly known as the "poster-colony" for USC Colonial Authority.</t>
@@ -254,14 +255,14 @@
 		<!-- Gaian Prophecy -->
 		<t id="1030113">Post-nuclear wasteland of the Split homeworld and it's moons is a warning to everyone of how vicious the Split can get. So far the Split have completely ignored the rediscovery of their original homeworld by the USC.</t>
 
-		<!--Uranus-->
-		<t id="1031414">Without feature or feeling, Uranus stands torn between the grip of the inner system and the hopes of those who have made this silent behemoth their home.</t>
+		<!--Shadow's End-->
+		<t id="1031414">A former Kha'ak sector "liberated" in Operation Final Fury, this sector was abandoned by Argon after military operations were finalised because it was too far from any Argon sector.</t>
 
-		<!--Uranus 2-->
-		<t id="1031415">Without feature or feeling, Uranus stands torn between the grip of the inner system and the hopes of those who have made this silent behemoth their home.</t>
+		<!--Eclipse-->
+		<t id="1031415">The Terran Tourism office was surprised with many visa requests from Commonwealth sitizens wanting to enjoy the sights of this dual eclipse sector.</t>
 
-		<!--Uranus 3-->
-		<t id="1031416">Without feature or feeling, Uranus stands torn between the grip of the inner system and the hopes of those who have made this silent behemoth their home.</t>
+		<!--Mists of Artemis-->
+		<t id="1031416">On the very edge of Terran space, this remote sector is the location of many USC radio telescopes searching for distant gates and other phenomena.</t>
 
 		<!--Anacreon's Kingdom-->
 		<t id="1030212">One of many sectors to be first colonised before the Terraformer War, this system bears the scars of its time.</t>
@@ -269,20 +270,17 @@
 		<!--Perpetual Sin-->
 		<t id="1031513">This sector, when discovered by the Paranid, was awash with Kha'ak. Paranid forces had daily skirmishes with them until one day, the Kha'ak completely disappeared from the sector, never to be seen there again.</t>
 
-		<!--Terran A-->
-		<t id="1031514">Though this sector is known to be within USC control, not much else is known about this fringe sector.</t>
+		<!--Narayan's Revenge-->
+		<t id="1031514">Name of this system is a memorial to the USC 3rd Fleet flag ship in the battle with combined Argon and Paranid forces.</t>
 
-		<!--Unknown Sector Nu-->
-		<t id="1031612">{19,1030000}</t>
+		<!--The Void-->
+		<t id="1031612">This featureless sector is a one of few sectors where USC and ATF allow open trade with Commonwealth races.</t>
 
-		<!--Terran D-->
-		<t id="1031612">Though this sector is known to be within USC control, not much else is known about this fringe sector.</t>
+		<!--Appallox-->
+		<t id="1031613">Regular skirmishes between the Paranid and USC are happening here so often that the Teladi have tried buying broadcasting rights for these "events".</t>
 
-		<!--Terran C-->
-		<t id="1031613">Though this sector is known to be within USC control, not much else is known about this fringe sector.</t>
-
-		<!--Terran B-->
-		<t id="1031614">Though this sector is known to be within USC control, not much else is known about this fringe sector.</t>
+		<!--Lance's Dominion-->
+		<t id="1031614">This is a former Split mining colony conquered in an suprise assault by USC Fleet Commander Stevron Aurius Lance. Instead of invading the system directly, Lance used a small fleet of captured Boron ships to attack another Split sector. Once the Split moved their forces to defense positions against the "Boron" ships, Lance jumped the decoys to this sector and blocked the Split from comming back.</t>
 
 
 	</page>
