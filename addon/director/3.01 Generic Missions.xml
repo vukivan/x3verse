@@ -118,6 +118,9 @@
                 <set_value name="this.L2M129" exact="1" chance="{player.sector.quota.XXXT}*0" comment="0 Deliver Matching Ship"/>
                 <set_value name="this.L2M133" exact="1" chance="{player.sector.quota.XXXT}*10" comment="10 Freight Scan"/>
                 <set_value name="this.L2M145" exact="1" chance="{player.sector.quota.XXXT}*5" comment="5 Scan Asteroids"/>
+				<set_value name="this.L2M180" exact="1" chance="{player.sector.quota.XXXT}*5" comment ="5 Repair Station"/>
+                <set_value name="this.L2M181" exact="1" chance="{player.sector.quota.XXXT}*5" comment ="5 Multiple Transport"/>
+                <set_value name="this.L2M182" exact="1" chance="{player.sector.quota.XXXT}*5" comment ="5 Tour Of A Lifetime"/>
                 <!--TXXX, buying offers - chance 400 - 500-->
                 <set_value name="this.L2M136" exact="1" chance="{player.sector.quota.XXXT}*5" comment="5 Notoriety Hack"/>
                 <set_value name="this.L2M144" exact="1" chance="{player.sector.quota.XXXT}*0" comment="0 Buy Asteroid Survey"/>
@@ -357,6 +360,33 @@
               </condition>
               <cues>
                 <cue ref="L2M161" comment="Buy Blueprints"/>
+              </cues>
+            </cue>
+			
+			<cue name="Trigger L2M180" check="cancel">
+              <condition>
+                <check_value value="{value@L3M01 Offer.L2M180}" exact="1"/>
+              </condition>
+              <cues>
+                <cue ref="L2M180" comment="Repair Station"/>
+              </cues>
+            </cue>
+
+            <cue name="Trigger L2M181" check="cancel">
+              <condition>
+                <check_value value="{value@L3M01 Offer.L2M181}" exact="1"/>
+              </condition>
+              <cues>
+                <cue ref="L2M181" comment="Multiple Transport"/>
+              </cues>
+            </cue>
+
+            <cue name="Trigger L2M182" check="cancel">
+              <condition>
+                <check_value value="{value@L3M01 Offer.L2M182}" exact="1"/>
+              </condition>
+              <cues>
+                <cue ref="L2M182" comment="Tour Of A Lifetime"/>
               </cues>
             </cue>
           </cues>
