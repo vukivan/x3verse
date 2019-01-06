@@ -96,8 +96,8 @@
   <!-- Terran Defender -->
   <gamestart id="155" name="{1900,2001}" description="{1900,2101}" difficulty="{1900,2201}" image="start08" plot="0">
     <player name="{1900,2301}" species="{1900,2401}" gender="{1900,2501}" age="{1900,2601}"/>
-    <!-- The Moon -->
-    <sector x="12" y="2"/>
+    <!-- OCA Headquarters -->
+    <sector x="13" y="12"/>
     <ship typename="SS_SH_TR_M4"/>
   </gamestart>
   <!--Aldran Adventurer-->
