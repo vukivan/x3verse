@@ -40,14 +40,14 @@
         <check_age min="20s"/>
       </condition>
       <cues>
-        <cue name="L3M01 Sector Blacklist">
+<!--         <cue name="L3M01 Sector Blacklist">
           <action>
             <do_all>
               <find_sector name="L3M01.BlackList1" x="13" y="8" comment="HUB Sector"/>
               <set_value name="L3M01.BlacklistSize" exact="1"/>
             </do_all>
           </action>
-        </cue>
+        </cue> -->
         
         <cue name="L3M01 Sector" instantiate="static" version="2">
           <condition>
@@ -97,33 +97,33 @@
               <do_any>
                 <!--KEEP THESE HEADERS UPDATED WHEN ADDING MISSIONS / ALTERING WEIGHTINGS-->
                 <!--TXXX trade missions - chance 440-->
-                <set_value name="this.L2M104A" exact="1" chance="{player.sector.quota.TXXX}*0" comment="100 Deliver Wares to Station in need"/>
-                <set_value name="this.L2M104B" exact="1" chance="{player.sector.quota.TXXX}*0" comment="100 Deliver Illegal Wares to Pirate Station"/>
-                <set_value name="this.L2M104C" exact="1" chance="{player.sector.quota.TXXX}*0" comment="40 Deliver Illegal Wares to Trading Station"/>
-                <set_value name="this.L2M116" exact="1" chance="{player.sector.quota.TXXX}*0" comment="100 Transport Cargo"/>
-                <set_value name="this.L2M130" exact="1" chance="{player.sector.quota.TXXX}*5" comment="100 Passenger Transport"/>
+                <set_value name="this.L2M104A" exact="1" chance="{player.sector.quota.TXXX}*20" comment="20 Deliver Wares to Station in need"/>
+                <set_value name="this.L2M104B" exact="1" chance="{player.sector.quota.TXXX}*20" comment="20 Deliver Illegal Wares to Pirate Station"/>
+                <set_value name="this.L2M104C" exact="1" chance="{player.sector.quota.TXXX}*20" comment="20 Deliver Illegal Wares to Trading Station"/>
+                <set_value name="this.L2M116" exact="1" chance="{player.sector.quota.TXXX}*0" comment="0 Transport Cargo"/>
+                <set_value name="this.L2M130" exact="1" chance="{player.sector.quota.TXXX}*20" comment="20 Passenger Transport"/>
                 <!--XFXX fight missions - chance 700-->
-                <set_value name="this.L2M101" exact="1" chance="{player.sector.quota.XFXX}*10" comment="100 Assassination 1"/>
-                <set_value name="this.L2M108" exact="1" chance="{player.sector.quota.XFXX}*75" comment="100 Xenon Invasion"/>
-                <set_value name="this.L2M119" exact="1" chance="{player.sector.quota.XFXX}*0" comment="65 Escort Convoy"/>
-                <set_value name="this.L2M127" exact="1" chance="{player.sector.quota.XFXX}*0" comment="70 Destroy Convoy"/>                
-                <set_value name="this.L2M134" exact="1" chance="{player.sector.quota.XFXX}*75" comment="70 Generic Patrol"/>
-                <set_value name="this.L2M135" exact="1" chance="{player.sector.quota.XFXX}*40" comment="65 Defend Object"/>                
+                <set_value name="this.L2M101" exact="1" chance="{player.sector.quota.XFXX}*10" comment="10 Assassination 1"/>
+                <set_value name="this.L2M108" exact="1" chance="{player.sector.quota.XFXX}*75" comment="75 Xenon Invasion"/>
+                <set_value name="this.L2M119" exact="1" chance="{player.sector.quota.XFXX}*0" comment="0 Escort Convoy"/>
+                <set_value name="this.L2M127" exact="1" chance="{player.sector.quota.XFXX}*0" comment="0 Destroy Convoy"/>                
+                <set_value name="this.L2M134" exact="1" chance="{player.sector.quota.XFXX}*75" comment="75 Generic Patrol"/>
+                <set_value name="this.L2M135" exact="1" chance="{player.sector.quota.XFXX}*40" comment="40 Defend Object"/>                
                 <!--XXBX build missions - chance 100-->
-                <set_value name="this.L2M122" exact="1" chance="{player.sector.quota.XXBX}*60" comment="80 Build Station"/>
+                <set_value name="this.L2M122" exact="1" chance="{player.sector.quota.XXBX}*40" comment="40 Build Station"/>
                 <!--XXXT think missions - chance 500-->
-                <set_value name="this.L2M103" exact="1" chance="{player.sector.quota.XXXT}*0" comment="100 Transport Passenger"/>
-                <set_value name="this.L2M105" exact="1" chance="{player.sector.quota.XXXT}*0" comment="100 Return Ship"/>
-                <set_value name="this.L2M113" exact="1" chance="{player.sector.quota.XXXT}*0" comment="100 Follow Ship"/>
-                <set_value name="this.L2M129" exact="1" chance="{player.sector.quota.XXXT}*0" comment="100 Deliver Matching Ship"/>
-                <set_value name="this.L2M133" exact="1" chance="{player.sector.quota.XXXT}*0" comment="100 Freight Scan"/>
-                <set_value name="this.L2M145" exact="1" chance="{player.sector.quota.XXXT}*5" comment="100 Scan Asteroids"/>
+                <set_value name="this.L2M103" exact="1" chance="{player.sector.quota.XXXT}*10" comment="10 Transport Passenger"/>
+                <set_value name="this.L2M105" exact="1" chance="{player.sector.quota.XXXT}*0" comment="0 Return Ship"/>
+                <set_value name="this.L2M113" exact="1" chance="{player.sector.quota.XXXT}*0" comment="0 Follow Ship"/>
+                <set_value name="this.L2M129" exact="1" chance="{player.sector.quota.XXXT}*0" comment="0 Deliver Matching Ship"/>
+                <set_value name="this.L2M133" exact="1" chance="{player.sector.quota.XXXT}*10" comment="10 Freight Scan"/>
+                <set_value name="this.L2M145" exact="1" chance="{player.sector.quota.XXXT}*5" comment="5 Scan Asteroids"/>
                 <!--TXXX, buying offers - chance 400 - 500-->
-                <set_value name="this.L2M136" exact="1" chance="{player.sector.quota.XXXT}*5" comment="100 Notoriety Hack"/>
-                <set_value name="this.L2M144" exact="1" chance="{player.sector.quota.XXXT}*5" comment="100 Buy Asteroid Survey"/>
-                <set_value name="this.L2M147" exact="1" chance="{player.sector.quota.XXXT}*5" comment="100 Buy Sector Data"/>                
-                <set_value name="this.L2M150a" exact="1" chance="{player.sector.quota.TXXX}*30" comment="100 Buy Used Ship"/>
-                <set_value name="this.L2M161" exact="1" chance="{player.sector.quota.XXXT}*60*{player.headquarters.exists}" comment="100 Buy Blueprints"/>
+                <set_value name="this.L2M136" exact="1" chance="{player.sector.quota.XXXT}*5" comment="5 Notoriety Hack"/>
+                <set_value name="this.L2M144" exact="1" chance="{player.sector.quota.XXXT}*0" comment="0 Buy Asteroid Survey"/>
+                <set_value name="this.L2M147" exact="1" chance="{player.sector.quota.XXXT}*5" comment="5 Buy Sector Data"/>                
+                <set_value name="this.L2M150a" exact="1" chance="{player.sector.quota.TXXX}*5" comment="5 Buy Used Ship"/>
+                <set_value name="this.L2M161" exact="1" chance="{player.sector.quota.XXXT}*60*{player.headquarters.exists}" comment="60 Buy Blueprints"/>
               </do_any>
             </do_otherwise>
           </do_choose>
